@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="566.93px" height="657.952px" viewBox="0 0 566.93 657.952" enable-background="new 0 0 566.93 657.952"
+	 xml:space="preserve">
+<g id="Layer_2" display="none">
+	<rect y="-0.473" display="inline" fill="#FFEB36" width="566.93" height="315.426"/>
+	<polyline display="inline" fill="#FFEB36" points="-228.977,309.939 -188.906,332.53 -268.199,411.595 -307.633,390.01 
+		-228.977,309.939 	"/>
+	<polygon display="inline" fill="#FF0021" points="-268.241,433.789 -189.444,388.72 -188.906,332.53 -268.199,411.595 	"/>
+	<polygon display="inline" fill="#0091FF" points="-306.884,410.589 -307.633,390.01 -268.199,411.595 -268.241,433.789 	"/>
+</g>
+<g id="Layer_3">
+	<polygon fill="#FFF221" points="263.875,315.022 293.25,297.772 323.125,314.772 293.5,332.272 	"/>
+	<polygon fill="#FFFFFF" points="263,315.022 233.5,297.856 203.5,314.689 203.5,384.188 233,401.354 233.333,331.855 
+		263.333,349.521 	"/>
+	<polygon fill="#FFFFFF" points="203.5,176.272 383.5,72.772 413.75,89.772 413.75,55.272 384,37.772 203.75,141.522 	"/>
+	<polygon fill="#FFF221" points="233.625,401.522 263.5,418.897 263.125,592.147 203.5,626.772 173.625,609.272 233.5,574.772 	"/>
+	<polygon fill="#FFF221" points="294.25,366.772 323.5,349.772 353,367.022 353.25,436.272 383.25,453.022 353.75,470.772 
+		323.5,453.772 323.25,384.022 	"/>
+</g>
+<g id="Layer_1">
+	<g>
+		<polyline fill="none" stroke="#ED1C24" stroke-miterlimit="10" points="293.5,401.408 263.521,418.845 233.516,401.408 		"/>
+		<polyline fill="none" stroke="#ED1C24" stroke-miterlimit="10" points="233.505,401.522 233.474,574.71 173.458,609.396 
+			203.516,626.679 293.46,574.771 293.462,436.314 		"/>
+		<polyline fill="none" stroke="#ED1C24" stroke-miterlimit="10" points="323.476,349.563 353.25,367.022 353.25,436.022 
+			383.5,453.522 353.75,470.772 323.469,453.46 323.625,384.21 233.501,332.229 233.501,401.522 203.5,384.189 203.5,314.896 
+			233.527,297.568 263.496,314.936 		"/>
+		<polyline fill="none" stroke="#ED1C24" stroke-miterlimit="10" points="293.244,367.022 323.476,349.563 323.488,314.907 
+			293.475,332.252 263.496,314.936 263.496,349.772 		"/>
+		<path fill="none" stroke="#ED1C24" stroke-miterlimit="10" d="M293.244,367.022"/>
+		<path fill="none" stroke="#ED1C24" stroke-miterlimit="10" d="M263.582,384.151"/>
+		<line fill="none" stroke="#ED1C24" stroke-miterlimit="10" x1="233.501" y1="401.522" x2="263.582" y2="384.151"/>
+		<polyline fill="none" stroke="#ED1C24" stroke-miterlimit="10" points="233.5,367.022 293.25,401.772 293.25,436.272 
+			323.516,453.491 		"/>
+		<line fill="none" stroke="#ED1C24" stroke-miterlimit="10" x1="293.475" y1="332.252" x2="293.475" y2="366.897"/>
+		<path fill="none" stroke="#ED1C24" stroke-miterlimit="10" d="M293.375,431.209"/>
+		<g>
+			<polyline fill="none" stroke="#ED1C24" stroke-miterlimit="10" points="413.803,89.845 413.834,55.189 383.834,37.877 
+				203.458,141.72 203.489,176.376 263.489,210.97 263.496,314.936 293.531,297.57 			"/>
+			<polyline fill="none" stroke="#ED1C24" stroke-miterlimit="10" points="293.505,159.048 323.489,176.345 323.488,314.907 
+				293.403,297.701 293.403,193.741 263.489,176.345 413.803,89.845 383.803,72.564 233.236,159.075 203.489,176.376 			"/>
+		</g>
+		<polyline fill="none" stroke="#ED1C24" stroke-miterlimit="10" points="263.521,592.021 263.516,626.694 293.484,644.007 
+			323.484,626.694 323.516,592.054 		"/>
+		<polyline fill="none" stroke="#ED1C24" stroke-miterlimit="10" points="293.46,574.771 323.46,592.023 293.484,609.366 
+			263.516,592.054 263.521,418.845 		"/>
+	</g>
+</g>
+</svg>

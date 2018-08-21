@@ -1,0 +1,159 @@
+.slide {
+    background-color: white;
+    min-height: 600px;
+    position: relative;
+    font-size: 0.8rem;
+    padding-bottom: 60px;
+}
+
+.slide h2.slide-title {
+    font-size: 2rem;
+}
+
+.slide .content {
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+    max-width: 600px;
+}
+.slide .content p {
+    text-align: left;
+}
+
+/*pseudo liens*/
+.soft-scroll {
+    text-decoration: underline;
+}
+.soft-scroll:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*formes entre slides*/
+.slide img.forme1, .slide img.forme2, .slide img.forme3, .slide img.forme4 {
+    position: absolute;
+    z-index: 0;
+    max-width: 20%;
+    top: 0;
+}
+.slide img.forme1, .slide img.forme3 {
+    right: 10px;
+}
+.slide img.forme2, .slide img.forme4 {
+    left: 10px;
+}
+.slide img.forme1 {
+    transform: translateY(-28%);
+}
+.slide img.forme2 {
+    transform: translateY(-55.8%);
+}
+.slide img.forme3 {
+    transform: translateY(-55.5%);
+}
+.slide img.forme4 {
+    transform: translateY(-45.6%);
+}
+
+    /*home*/
+
+#slide-home {
+    z-index: 1;
+    padding-top: 100px;
+}
+.main-logo img {
+    max-height: 70vh;
+    max-width: 100%;
+    padding: 100px 0 0 0;
+    background: white;
+    padding: 20px;
+    border-radius: 300px;
+    box-sizing: border-box;
+}
+.slide .content .logo-title {
+    margin: 0 auto;
+    font-family: "frutiger-light";
+}
+
+#background-canvas-holder {
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+}
+
+    /*news*/
+
+#slide-news {
+    padding: 50px 0 0 0;
+}
+#slide-news .content article .news-border, #slide-news .content article .news-fix {
+    position: relative;
+    border: 2px solid rgb(0, 146, 255);
+}
+#slide-news .content article .news-border {
+    margin-bottom: 100px;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    /*bottom: 25px;
+    right: 45px;*/
+}
+#slide-news .content article .news-fix {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    /*bottom: -35px;
+    right: -90px;*/
+}
+
+#slide-news .date {
+    font-size: .5em;
+}
+
+    /*idee*/
+
+#slide-idee {
+    background-color: rgb(237, 28, 36);
+    color: white;
+}
+
+    /*artistes*/
+
+#slide-artistes {
+    background-color: rgb(0, 146, 255);
+}
+
+    /*lieux*/
+
+#slide-lieux {
+    background-color: rgb(255, 242, 0);
+}
+
+    /*contact*/
+
+#slide-contact {
+    background-color: rgb(0, 146, 255);
+    min-height: inherit;
+}
+
+#slide-contact button {
+    width: 30%;
+}
+
+#slide-contact .facebook {
+    color: white;
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/FB-f-Logo__white_29.png");
+    margin: 15px;
+}
+#slide-contact .facebook:hover {
+    background-image: url("../img/FB-f-Logo__blue_29.png");
+    cursor: pointer;
+}
+#slide-contact {
+    padding: 20px 0;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "frutiger";
+    src: url("../fonts/frutiger/FrutigerLTStd-Roman.otf");
+}
+
+@font-face {
+    font-family: "frutiger-bold";
+    src: url("../fonts/frutiger/FrutigerLTStd-Bold.otf");
+}
+@font-face {
+    font-family: "frutiger-light";
+    src: url("../fonts/frutiger/FrutigerLTStd-Light.otf");
+}
+
+@font-face {
+    font-family: "frutiger-italic";
+    font-weight: Regular;
+    src: url("../fonts/frutiger/FrutigerLTStd-Italic.otf");
+}
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "frutiger";
+    font-size: 40px;
+    background-color: rgb(0, 146, 255);
+}
+
+body h1, body h2, body h3 {
+    font-family: "frutiger-bold";
+}
+
+ul {
+    list-style: none;
+    color: black;
+}
+ul * {
+    padding: 0 20px;
+}
+
+em {
+    font-family: "frutiger-italic";
+    font-style: normal;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+u {
+    background-color: rgb(255, 242, 0);
+    text-decoration: none;
+}

@@ -1,0 +1,100 @@
+#user-nav {
+    position: relative;
+    z-index: 10;
+    padding: 0px 10px;
+    text-align: center;
+    vertical-align: center;
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: rgb(0, 146, 255);
+}
+
+#user-nav .wrapper {
+    /*width: 400px;*/
+    width: auto;
+    position: absolute;
+    right: 10px;
+}
+
+#user-nav nav {
+    display: inline-block;
+}
+
+#user-nav a button {
+    width: 150px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0 10px 10px;
+    box-shadow: none;
+}
+
+#user-nav .wrapper nav{
+    float: left;
+}
+
+#main-logo {
+    border: 1px solid rgb(0, 146, 255);
+    position: relative;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    margin: 10px 0px 10px 10px;
+    background-color: white;
+    border-radius: 100px;
+    transition: background-color 100ms ease-in-out;
+}
+#main-logo:hover {
+    background-color: rgb(244, 247, 246);
+}
+#main-logo img, #main-logo a {
+    display: inline-block;
+    max-height: 30px;
+}
+#main-logo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    font-size: 10pt;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgb(0, 146, 255);
+    text-align: center;
+}
+
+footer .content {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer hr {
+    width: 200px;
+    border: 1px solid white;
+    margin: 20px auto 0 auto;
+}
+
+footer .legal {
+    font-size: 7pt;
+    margin: 20px auto 0 auto;
+}
+
+footer .matrice-DGCA {
+    font-size: 7pt;
+    margin: 0 auto;
+    padding: 10px;
+    /*text-align: left;*/
+}

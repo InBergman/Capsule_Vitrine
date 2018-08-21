@@ -1,0 +1,121 @@
+#navigation {
+    font-family: "frutiger";
+    height: 100%;
+    position : fixed;
+    font-size: .6rem;
+    left: -220px;
+    z-index: 2;
+    overflow-x: visible;
+    overflow-y: scroll;
+}
+#navigation, #main-content .slide .content {
+    transition: left 400ms;
+}
+
+#main-content .slide .content {
+    position: relative;
+    left: 0;
+}
+#navigation.down {
+    left: 0px;
+}
+#navigation.down #menu-button, #navigation.down #menu-button:hover {
+    padding-left: 20px;
+    left: 170px;
+}
+
+#navigation .content {
+    height: 100%;
+    min-height: 420px;
+    float: left;
+    box-shadow: 5px 0px 12px 0px rgba(46,61,73,0.15);
+    background-color: rgb(244, 247, 246);
+}
+
+#navigation nav {
+    box-shadow: none;
+    /*box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);*/
+    height: 60px;
+    box-sizing: border-box;
+    transition: color 100ms, background-color 200ms;
+    margin: 0 auto;
+    padding: 15px 30px;
+    width: 200px;
+    /*left: 0;*/
+    background-color: rgb(244, 247, 246);
+    border-bottom: 1px solid #eee;
+}
+#navigation nav:hover {
+    cursor: pointer;
+    /*font-size: 0.8rem;*/
+    /*color: white;*/
+    background-color: white;
+}
+#navigation #nav-home {
+    height: 150px;
+    padding: 30px 30px;
+    text-align: center;
+}
+/*#navigation #nav-contact {
+    color: rgb(0, 146, 255);
+}*/
+
+#navigation nav.scrollActive, #navigation nav.scrollActive:hover {
+    position: relative;
+}
+
+#navigation #nav-home, #navigation #nav-home.scrollActive, #navigation #nav-home:hover, #navigation #nav-home.scrollActive:hover {
+    font-size: 0.4rem;
+    /*background-color: white;*/
+    left: 0;
+}
+#navigation #nav-home img {
+    height: 70px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    transition: opacity 400ms ease-in-out;
+    opacity: 0;
+}
+#navigation.down #nav-home img {
+    -webkit-transition-delay: 200ms; /* Safari */
+    transition-delay: 200ms;
+    opacity: 1;
+}
+#menu-button, #menu-button:hover {
+    position: fixed;
+    left: -30px;
+    bottom: 20px;
+    transition: padding-left 400ms, left 400ms;
+    padding-left: 80px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    width: auto;
+    box-shadow: none;
+}
+#menu-button:focus {
+    outline:0;
+}
+
+#user-nav {
+    box-sizing: border-box;
+    z-index: 3;
+    width: 100vw;
+    height: 80px;
+    text-align: right;
+    padding: 5px 20px 10px 20px;
+    background-color: rgb(0, 146, 255);
+}
+
+#user-nav .wrapper {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#user-nav button {
+    width: 120px;
+    height: 30px;
+    padding: 0;
+    font-size: 15px;
+}
